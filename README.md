@@ -40,7 +40,7 @@
         <li>Heap Sort</li>
         <li>Radix Sort</li>
     </ul>
-    <p>Each algorithm will have its own folder with implementation details and explanations.</p>
+    <p>Each algorithm will have its own file with implementation details and explanations.</p>
 
 <h2 id="big-o-notation">Big O Notation</h2>
     <p>Big O notation is a way to analyze the efficiency of an algorithm and describe how its performance scales with increasing input sizes. We will use Big O notation to evaluate the time and space complexities of the sorting algorithms we implement. Understanding Big O will help us identify the best algorithm for different data sets and scenarios.</p>
