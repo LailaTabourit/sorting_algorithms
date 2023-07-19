@@ -59,11 +59,11 @@
     </ol>
     <pre><code>git clone https://github.com/laila-tabourit/sorting-algorithms-big-o.git</code></pre>
     <ol start="2">
-        <li>Navigate to the specific sorting algorithm folder you want to explore:</li>
+        <li>Display the content of the specific sorting algorithm file you want to explore:</li>
     </ol>
-    <pre><code>cd sorting-algorithms-big-o/bubble-sort</code></pre>
+    <pre><code>cat sorting-algorithms-big-o/bubble-sort</code></pre>
     <ol start="3">
-        <li>Read the implementation details, explanations, and complexity analysis provided in each algorithm folder.</li>
+        <li>Read the implementation details, explanations, and complexity analysis provided in each algorithm file.</li>
         <li>Experiment with the code, run the algorithms with different input data, and observe their performance.</li>
     </ol>
 
