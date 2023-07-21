@@ -22,7 +22,7 @@ void insertion_sort_list(listint_t **list)
 		while (p->next && (p->n > p->next->n))
 		{
 			temp = p->next;
-			p ->next = temp->next;
+			p->next = temp->next;
 			temp->prev = p->prev;
 
 			if (p->prev)
