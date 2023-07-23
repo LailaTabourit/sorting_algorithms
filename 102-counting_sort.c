@@ -21,10 +21,10 @@ void counting_sort(int *array, size_t size)
 		if (array[a] > m)
 			m = array[a];
 	}
-	count_array = calloc((n + 1), sizeof(int));
+	count_array = calloc((m + 1), sizeof(int));
 	for (a = 0; a < size; a++)
 	{
-		count_array[array[i]]++;
+		count_array[array[a]]++;
 	}
 	for (j = 1; j < m; j++)
 	{
