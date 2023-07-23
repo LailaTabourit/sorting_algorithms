@@ -19,7 +19,7 @@ void csort2(int *array, int **buff, int size, int lsd)
 
 	for (a = 0; a < size; a++)
 	{
-		num = array[i];
+		num = array[a];
 		for (b = 0; b < lsd; b++)
 			if (b > 0)
 				num = num / 10;
