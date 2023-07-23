@@ -42,7 +42,7 @@ void shell_sort(int *array, size_t size)
 
 	while (e >= 1)
 	{
-		for (a = h; a < size; a++)
+		for (a = e; a < size; a++)
 			for (b = a; b >= e && array[b] < array[b - e]; b -= e)
 				_swap(array, b, b - e);
 		e /= 3;
