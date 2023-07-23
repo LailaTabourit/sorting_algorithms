@@ -32,7 +32,7 @@ void csort2(int *array, int **buff, int size, int lsd)
 	{
 		while (carr[a] > 0)
 		{
-			array[b] = buff[i][carr2[a]];
+			array[b] = buff[a][carr2[a]];
 			carr2[a] += 1, carr[a] -= 1;
 			b++;
 		}
